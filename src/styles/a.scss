@@ -1,0 +1,105 @@
+.a{
+  padding: 85px 0 76px;
+  background: url("../images/a/a.png") center/cover no-repeat;
+  &__title{
+    color: var(--ffffff, #FFF);
+    font-family: Bebas Neue, sans-serif;
+    font-size: 80px;
+  }
+  &__subtitle{
+    color: var(--ffffff, #FFF);
+    font-family: Bebas Neue, sans-serif;
+    font-size: 64px;
+    line-height: 100%;
+    margin: 9px 0 70px;
+  }
+  &__box{
+    width: calc(33.33333% - 13.33333px);
+    position: relative;
+    padding: 28px 20px 15px 68px;
+    background: var(--ffffff, #FFF);
+    &-title{
+      color: var(--style, #FF9533);
+      font-family: Bebas Neue, sans-serif;
+      font-size: 24px;
+      line-height: 120%;
+    }
+    &-text{
+      color: var(--171717, #171717);
+      font-size: 15px;
+      line-height: 150%;
+      margin: 3px 0 11px;
+    }
+    &-link{
+      display: flex;
+      align-items: center;
+      column-gap: 10px;
+      color: var(--dafe-8-f, #35B984);
+      font-size: 16px;
+      font-weight: 500;
+    }
+    &-num{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 48px;
+      height: 48px;
+      background: var(--style, #FF9533);
+      color: var(--ffffff, #FFF);
+      text-align: center;
+      font-family: Bebas Neue, sans-serif;
+      font-size: 32px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    &-text0{
+      color: var(--ffffff, #FFF);
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 120%;
+      span{
+        color: var(--dafe-8-f, #35B984);
+      }
+    }
+    &-btn0{
+      color: var(--ffffff, #FFF);
+      font-family: Bebas Neue, sans-serif;
+      font-size: 28px;
+      padding: 17px 30px;
+      background: var(--dafe-8-f, #35B984);
+    }
+  }
+  &__box0{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: calc(33.33333% - 13.33333px);
+    padding: 28px 35px 15px 25px;
+    background: transparent;
+    &-text0{
+      text-align: center;
+      color: var(--ffffff, #FFF);
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 120%;
+      span{
+        color: var(--dafe-8-f, #35B984);
+      }
+    }
+    &-btn0{
+      color: var(--ffffff, #FFF);
+      font-family: Bebas Neue, sans-serif;
+      font-size: 28px;
+      padding: 0 30px;
+      height: 60px;
+      background: var(--dafe-8-f, #35B984);
+      margin: 30px 0 20px;
+    }
+  }
+  &__row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+}

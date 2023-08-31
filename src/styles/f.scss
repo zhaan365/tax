@@ -1,0 +1,146 @@
+.f{
+  padding-bottom: 100px;
+  &__box{
+    background: var(--dafe-8-f, #35B984);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 37px 66px 34px 50px;
+    &-title{
+      color: var(--171717, #171717);
+      font-family: Bebas Neue, sans-serif;
+      font-size: 36px;
+      line-height: 120%;
+      text-transform: uppercase;
+    }
+    &-text{
+      color: var(--ffffff, #FFF);
+      font-size: 15px;
+      font-weight: 500;
+    }
+    &-span1{
+      color: var(--ffffff, #FFF);
+      font-size: 11px;
+      font-weight: 500;
+    }
+    &-span2{
+      color: var(--ffffff, #FFF);
+      font-size: 20px;
+      font-weight: 500;
+    }
+    &-btn{
+      padding: 9px 25px 9px 15px;
+      background: #1FA56F;
+      display: flex;
+      align-items: center;
+      column-gap: 19px;
+    }
+    &-boxes{
+      display: flex;
+      align-items: center;
+      column-gap: 32px;
+    }
+    &-text2{
+      color: var(--ffffff, #FFF);
+      font-size: 11px;
+      font-weight: 500;
+      position: absolute;
+      top: -10px;
+    }
+    &-text3{
+      color: var(--ffffff, #FFF);
+      font-size: 11px;
+      font-weight: 500;
+      position: absolute;
+      top: -10px;
+      right: 0;
+    }
+    &-linia{
+      width: 100%;
+      height: 1px;
+      background: #171717;
+      margin: 35px 0 26px;
+    }
+    &-desc1{
+      color: var(--ffffff, #FFF);
+      font-size: 15px;
+      font-weight: 500;
+      line-height: 150%;
+    }
+    &-words{
+      display: flex;
+      align-items: center;
+      column-gap: 16px;
+    }
+    &-desc2{
+      color: var(--ffffff, #FFF);
+      font-size: 14px;
+      font-weight: 500;
+    }
+    &-desc3{
+      color: var(--ffffff, #FFF);
+      font-size: 40px;
+      font-weight: 500;
+    }
+    &-last{
+      display: flex;
+      column-gap: 120px;
+      align-items: center;
+    }
+  }
+  &__text{
+    color: var(--171717, #171717);
+    font-size: 16px;
+    font-weight: 500;
+  }
+  &__btn{
+    color: var(--ffffff, #FFF);
+    font-family: Bebas Neue, sans-serif;
+    font-size: 24px;
+    height: 48px;
+    background: var(--171717, #171717);
+    padding: 0 30px;
+  }
+  &__end{
+    display: flex;
+    column-gap: 48px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+  }
+}
+
+
+
+
+
+
+
+
+.slider-container {
+  position: relative;
+  width: 331px;
+  margin: 20px;
+}
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 4px;
+  border-radius: 5px;
+  background: #d3d3d3;
+}
+/* Изменяем цвет ползунка */
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: #FFFFFF solid 4px;
+  background: #35B984; /* Новый цвет для ползунка, например, красный (#FF5733) */
+  cursor: pointer;
+}
+
+
+

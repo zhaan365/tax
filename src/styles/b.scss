@@ -1,0 +1,100 @@
+.b{
+  padding: 100px 0;
+  &__title{
+    color: var(--171717, #171717);
+    text-align: center;
+    font-family: Bebas Neue, sans-serif;
+    font-size: 48px;
+    text-transform: uppercase;
+  }
+  &__card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px 0 36px;
+    width: 380px;
+    background: var(--ffffff, #FFF);
+    box-shadow: 0 5px 10px 0 rgba(133, 133, 133, 0.20);
+    &-text{
+      color: var(--171717, #171717);
+      text-align: center;
+      font-size: 22px;
+      line-height: 150%;
+      margin: 22px 0 0;
+    }
+    &-link1{
+      margin-top: 64px;
+      display: flex;
+      align-items: center;
+      column-gap: 10px;
+      color: var(--dafe-8-f, #35B984);
+      font-size: 16px;
+      font-weight: 500;
+    }
+    &-link2{
+      margin-top: 28px;
+      display: flex;
+      align-items: center;
+      column-gap: 10px;
+      color: var(--dafe-8-f, #35B984);
+      font-size: 16px;
+      font-weight: 500;
+    }
+    &-link3{
+      margin-top: 90px;
+      display: flex;
+      align-items: center;
+      column-gap: 10px;
+      color: var(--dafe-8-f, #35B984);
+      font-size: 16px;
+      font-weight: 500;
+    }
+  }
+  &__row{
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    margin: 40px 0 50px;
+  }
+  &__last{
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url("../images/b/b4.png") center/cover no-repeat;
+    &-title{
+      color: var(--dafe-8-f, #35B984);
+      text-align: center;
+      font-family: Bebas Neue, sans-serif;
+      font-size: 48px;
+      text-transform: uppercase;
+      span{
+        color: var(--171717, #171717);
+        font-family: Bebas Neue, sans-serif;
+        font-size: 48px;
+      }
+    }
+    &-text{
+      color: var(--171717, #171717);
+      font-size: 22px;
+      text-align: center;
+      line-height: 150%;
+      margin: 40px 0;
+    }
+    &-span1{
+      color: var(--dafe-8-f, #35B984);
+    }
+    &-span2{
+      color: var(--fc-2-f-2-f, #FC2F2F);
+    }
+    &-btn{
+      color: var(--ffffff, #FFF);
+      text-align: center;
+      font-family: Bebas Neue, sans-serif;
+      font-size: 28px;
+      height: 60px;
+      padding: 0 30px;
+      background: var(--dafe-8-f, #35B984);
+    }
+  }
+}

@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: DM Sans, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+.container{
+  max-width: 1180px;
+  margin: 0 auto;
+}
+button{
+  cursor: pointer;
+  border: none;
+}
+@import "header";
+@import "a";
+@import "b";
+@import "c";
+@import "d";
+@import "e";
+@import "f";
+@import "g";
+@import "h";
+@import "i";
+@import "k";
+@import "m";
+@import "o";
+@import "p";
+@import "n";
+@import "q";
+@import "footer";

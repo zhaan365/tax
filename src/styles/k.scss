@@ -1,0 +1,52 @@
+.k{
+  &__nav{
+    padding: 50px 145px 51px 49px;
+    width: 1180px;
+    background: var(--dafe-8-f, #35B984);
+    display: flex;
+    align-items: center;
+    column-gap: 108px;
+  }
+  &__box{
+    display: flex;
+    column-gap: 28px;
+    align-items: center;
+    &-text{
+      color: var(--ffffff, #FFF);
+      font-size: 15px;
+      font-weight: 500;
+    }
+    &-boxes{
+      display: flex;
+      column-gap: 9px;
+      align-items: center;
+    }
+    &-btn{
+      color: var(--ffffff, #FFF);
+      font-family: Bebas Neue, sans-serif;
+      font-size: 24px;
+      height: 48px;
+      padding: 0 30px;
+      background: var(--171717, #171717);
+    }
+  }
+  &__title{
+    color: var(--ffffff, #FFF);
+    font-family: Bebas Neue, sans-serif;
+    font-size: 36px;
+    line-height: 120%;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+  }
+  &__text{
+    color: var(--ffffff, #FFF);
+    font-size: 16px;
+    line-height: 150%;
+  }
+  &__desc{
+    color: var(--171717, #171717);
+    font-size: 16px;
+    font-weight: 700;
+    margin: 20px 0 25px;
+  }
+}

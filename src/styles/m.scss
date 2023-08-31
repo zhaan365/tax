@@ -1,0 +1,67 @@
+.m{
+  padding: 100px 0;
+  &__title{
+    color: var(--171717, #171717);
+    text-align: center;
+    font-family: Bebas Neue, sans-serif;
+    font-size: 48px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    span{
+      color: var(--dafe-8-f, #35B984);
+      font-family: Bebas Neue, sans-serif;
+      font-size: 48px;
+      text-transform: uppercase;
+    }
+  }
+  &__block{
+    //height: 584px;
+    padding: 108px 40px 70px 62px;
+    background: url("../images/l/l.png") center/cover no-repeat;
+  }
+  &__box{
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    &-text{
+      color: var(--171717, #171717);
+      font-size: 16px;
+      line-height: 150%;
+    }
+    &-span{
+      color: var(--858585, #858585);
+      font-size: 14px;
+      line-height: 150%;
+    }
+  }
+  &__box0{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    &-text0{
+      color: var(--171717, #171717);
+      font-size: 16px;
+      line-height: 150%;
+    }
+  }
+  &__block{
+    display: flex;
+    justify-content: space-between;
+  }
+  &__box2{
+    margin-top: 25px;
+    display: flex;
+    column-gap: 20px;
+    &-text{
+      color: var(--171717, #171717);
+      font-size: 16px;
+      line-height: 150%;
+    }
+    &-span{
+      color: var(--858585, #858585);
+      font-size: 14px;
+      line-height: 150%;
+    }
+  }
+}

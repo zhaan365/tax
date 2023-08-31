@@ -1,0 +1,57 @@
+.i{
+  padding-bottom: 52px;
+  position: relative;
+  &__block{
+    background: url("../images/i/i.png") center/cover no-repeat;
+    height: 325px;
+    padding-top: 175px;
+    &-title{
+      color: var(--171717, #171717);
+      text-align: center;
+      font-family: Bebas Neue, sans-serif;
+      font-size: 64px;
+      text-transform: uppercase;
+    }
+  }
+  &__card{
+    padding: 40px 38px 27px 40px;
+    width: 380px;
+    background: var(--ffffff, #FFF);
+    box-shadow: 0 5px 10px 0 rgba(133, 133, 133, 0.20);
+    &-title{
+      color: var(--dafe-8-f, #35B984);
+      font-family: Bebas Neue, sans-serif;
+      font-size: 24px;
+      line-height: 120%;
+      text-transform: uppercase;
+    }
+    &-text{
+      color: var(--171717, #171717);
+      font-size: 15px;
+      line-height: 150%;
+      margin-top: 20px;
+    }
+  }
+  &__nav{
+    position: absolute;
+    top: 295px;
+    display: flex;
+    column-gap: 20px;
+  }
+  &__end{
+    margin-top: 256px;
+  }
+  &__images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 75px;
+  }
+  &__images2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 71px;
+    margin-top: 61px;
+  }
+}

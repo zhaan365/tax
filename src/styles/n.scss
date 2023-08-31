@@ -1,0 +1,24 @@
+.n{
+  background: var(--171717, #171717);
+  padding: 50px 0 55px;
+  &__title{
+    color: var(--ffffff, #FFF);
+    font-family: Bebas Neue, sans-serif;
+    font-size: 36px;
+    text-transform: uppercase;
+  }
+  &__text{
+    color: var(--dafe-8-f, #35B984);
+    font-size: 20px;
+    font-weight: 500;
+    margin: 20px 0 30px;
+  }
+  &__btn{
+    height: 48px;
+    padding: 0 30px;
+    background: var(--dafe-8-f, #35B984);
+    color: var(--ffffff, #FFF);
+    font-family: Bebas Neue, sans-serif;
+    font-size: 24px;
+  }
+}

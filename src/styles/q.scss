@@ -1,0 +1,127 @@
+.q{
+  padding: 100px 0;
+  position: relative;
+  &__nav{
+    display: flex;
+    justify-content: center;
+    column-gap: 80px;
+  }
+  &__card{
+    &-title{
+      margin: 20px 0 12px;
+      color: var(--171717, #171717);
+      text-align: center;
+      font-size: 24px;
+      font-weight: 500;
+    }
+    &-img{
+      display: flex;
+      justify-content: center;
+    }
+    &-text{
+      color: var(--dafe-8-f, #35B984);
+      text-align: center;
+      font-size: 15px;
+    }
+  }
+  &__click{
+    display: flex;
+    justify-content: space-between;
+  }
+  &__title{
+    color: var(--171717, #171717);
+    text-align: center;
+    font-family: Bebas Neue, sans-serif;
+    font-size: 48px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+  }
+  &__linia{
+    margin: 100px 0;
+    width: 1180px;
+    height: 1px;
+    opacity: 0.5;
+    background: #858585;
+  }
+  &__subtitle{
+    color: var(--858585, #858585);
+    text-align: center;
+    font-family: Bebas Neue, sans-serif;
+    font-size: 36px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+  }
+  &__img1{
+    display: flex;
+    justify-content: center;
+    column-gap: 60px;
+    align-items: center;
+    margin-bottom: 44px;
+  }
+  &__img2{
+    display: flex;
+    justify-content: center;
+    column-gap: 67px;
+    align-items: center;
+  }
+}
+
+.swiper-pagination{
+  color: var(--dafe-8-f, #35B984);
+}
+.swiper-wrapper{
+  width: 1180px;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+//.swiper-button-next, .swiper-button-prev{
+//  font-size: 2px;
+//  width: 50px;
+//  height: 50px;
+//  background: var(--dafe-8-f, #35B984);
+//}
+.swiper{
+  padding-bottom: 60px;
+}
+.next, .prev{
+  width: 50px;
+  height: 50px;
+  background: var(--dafe-8-f, #35B984);
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  cursor: pointer;
+}
+
+.prev{
+  position: absolute;
+  top: 320px;
+  left: 100px;
+  z-index: 1;
+}
+.next{
+  position: absolute;
+  top: 320px;
+  z-index: 1;
+  right: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

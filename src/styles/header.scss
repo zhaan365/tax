@@ -1,0 +1,45 @@
+.header{
+  padding: 20px 0;
+  &__center{
+    display: flex;
+    column-gap: 12px;
+    align-items: center;
+    &-text{
+      color: var(--858585, #858585);
+      font-size: 15px;
+    }
+    &-num{
+      color: var(--171717, #171717);
+      font-size: 16px;
+      font-weight: 700;
+    }
+  }
+  &__icons{
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+  }
+  &__btn{
+    color: var(--ffffff, #FFF);
+    font-size: 24px;
+    padding: 0 30px;
+    height: 48px;
+    background: var(--dafe-8-f, #35B984);
+    font-family: Bebas Neue, sans-serif;
+  }
+  &__block{
+    display: flex;
+    align-items: center;
+    column-gap: 80px;
+  }
+  &__nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &-end{
+      display: flex;
+      align-items: center;
+      column-gap: 50px;
+    }
+  }
+}
